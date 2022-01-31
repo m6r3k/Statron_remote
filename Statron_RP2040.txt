@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : C:\Users\Marek\Desktop\Statron_remote\Statron_RP2040.PcbDoc
+Date         : 1/16/2022
+Time         : 8:18:35 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 1075milsx1465mils
+    Components on board, 66
+count : 2
