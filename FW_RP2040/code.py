@@ -11,7 +11,7 @@ uart = busio.UART(tx=board.GP4, rx=board.GP5)
 # DAC MCP4726A1 adress=0x61
 dac_voltage = adafruit_mcp4725.MCP4725(i2c, address=0x61)
 # DAC MCP4726A3 adress=0x63
-dac_current = adafruit_mcp4725.MCP4725(i2c, address=0x61)
+dac_current = adafruit_mcp4725.MCP4725(i2c, address=0x63)
 
 # current DAC parameter for Statron remote control
 alpha = 1714
@@ -48,7 +48,7 @@ while True:
             uart.write(bytes(data, 'UFT-8'))    
             
             
-            if data_string == 'set':
+            if data_string == 'set:volt':
                 
                 set_voltage(20)
 
